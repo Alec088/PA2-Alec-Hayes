@@ -1,0 +1,10 @@
+# Build output
+*.o
+wordcount
+*.exe
+*.zip
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
