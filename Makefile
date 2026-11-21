@@ -9,10 +9,17 @@ wordcount: wordcount.c mapreduce.c mapreduce.h
 valgrind: wordcount
 	valgrind --leak-check=full ./wordcount wordcount.c
 
-zip:
-	zip PA2.zip mapreduce.c
+deliverables: deliverables/mapreduce.c
+
+deliverables/mapreduce.c: mapreduce.c
+	mkdir -p deliverables
+	cp mapreduce.c deliverables/mapreduce.c
+
+zip: deliverables/mapreduce.c
+	rm -f deliverables/PA2.zip
+	cd deliverables && zip PA2.zip mapreduce.c
 
 clean:
 	rm -f wordcount *.o PA2.zip
 
-.PHONY: all valgrind zip clean
+.PHONY: all valgrind deliverables zip clean

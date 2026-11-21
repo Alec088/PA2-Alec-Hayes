@@ -3,6 +3,7 @@
 wordcount
 *.exe
 *.zip
+!deliverables/PA2.zip
 
 # Editor / OS
 .vscode/
