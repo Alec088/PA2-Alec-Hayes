@@ -3,7 +3,7 @@
 wordcount
 *.exe
 *.zip
-!deliverables/PA2.zip
+!deliverables/PA #2 - Alec Hayes.zip
 
 # Editor / OS
 .vscode/

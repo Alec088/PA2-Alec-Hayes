@@ -25,7 +25,7 @@ A user program supplies a `Map()` and a `Reduce()` function and calls
 | `mapreduce.h` | Interface from the assignment (do not modify) |
 | `wordcount.c` | Sample word-count program from the spec, used for testing |
 | `Makefile` | Build, valgrind, and packaging targets |
-| `deliverables/` | Submission copies: `mapreduce.c` and `PA2.zip` |
+| `deliverables/` | Submission copies: `mapreduce.c` and `PA #2 - Alec Hayes.zip` |
 
 ## Building and running
 

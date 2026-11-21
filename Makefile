@@ -16,8 +16,8 @@ deliverables/mapreduce.c: mapreduce.c
 	cp mapreduce.c deliverables/mapreduce.c
 
 zip: deliverables/mapreduce.c
-	rm -f deliverables/PA2.zip
-	cd deliverables && zip PA2.zip mapreduce.c
+	rm -f "deliverables/PA #2 - Alec Hayes.zip"
+	cd deliverables && zip "PA #2 - Alec Hayes.zip" mapreduce.c
 
 clean:
 	rm -f wordcount *.o PA2.zip
