@@ -52,11 +52,3 @@ make clean
 - **Memory:** each key's memory is freed right after its `Reduce()` call, and
   everything else is freed before `MR_Run` returns. The library is
   valgrind-clean.
-
-## Submission
-
-```sh
-make zip    # refreshes deliverables/mapreduce.c and builds deliverables/PA2.zip
-```
-
-Upload `deliverables/PA2.zip` (containing only `mapreduce.c`) to Canvas.
