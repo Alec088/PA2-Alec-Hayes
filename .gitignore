@@ -12,3 +12,6 @@ Thumbs.db
 
 # Claude notes
 CLAUDE.md
+
+# Claude Code local settings
+.claude/settings.local.json
