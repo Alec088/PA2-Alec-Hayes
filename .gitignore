@@ -8,3 +8,6 @@ wordcount
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Claude notes
+CLAUDE.md
